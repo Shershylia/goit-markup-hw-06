@@ -9,7 +9,6 @@
   }
 
   .customers-item {
-    
   }
 
   .mob-tel {
@@ -30,13 +29,13 @@
     max-width: 766px;
   }
 
-.header-container {
+  .header-container {
     padding: 0 16px;
-}
+  }
 
-.header-logo {
+  .header-logo {
     margin-right: 120px;
-}
+  }
 
   .header-menu-list {
     display: flex;
@@ -67,20 +66,19 @@
   }
 
   .address-menu-connect {
-        color: var(--main-cl);
-        font-size: 12px;
-        line-height: 1.17;
-        letter-spacing: 0.04em;
-        transition-property: color;
-            transition-duration: 250ms;
-            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    color: var(--main-cl);
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-.address-menu-connect:hover,
-.address-menu-connect:focus {
+  .address-menu-connect:hover,
+  .address-menu-connect:focus {
     color: #404bbf;
-}
-
+  }
 
   .menu-open-btn {
     display: none;
@@ -116,9 +114,9 @@
     margin-top: 36px;
   }
 
-.advantages-subtitle {
+  .advantages-subtitle {
     text-align: left;
-}
+  }
 
   .advantages-list {
     padding: 0;
@@ -159,50 +157,42 @@
     width: calc((100% - 2 * 24px) / 3);
   }
 
-
-.footer {
+  .footer {
     padding-top: 96px;
-        padding-bottom: 96px;
-}
+    padding-bottom: 96px;
+  }
 
-.footer-container {
+  .footer-container {
     align-items: baseline;
     flex-direction: row;
     flex-wrap: wrap;
     padding-left: 108px;
-}
+  }
 
-.footer-logo {
+  .footer-logo {
     justify-content: start;
-}
+  }
 
-.footer-text-wrap {
+  .footer-text-wrap {
     margin-right: 24px;
-}
+  }
 
-.footer-social-title {
- justify-content: start;
-}
+  .footer-social-title {
+    justify-content: start;
+  }
 
- .footer-form {
-   flex-direction: row;
-   gap: 0;
- }
+  .footer-form {
+    flex-direction: row;
+    gap: 0;
+  }
 
- .footer-input {
+  .footer-input {
     min-width: 264px;
- }
+  }
 
- .footer-btn {
+  .footer-btn {
     margin-left: 24px;
- }
-
-
-
-
-
-
-
+  }
 }
 
 @media screen and (min-width: 1158px) {
@@ -212,23 +202,19 @@
 
   .header-logo {
     margin-right: 76px;
-}
+  }
 
-.address-menu-list {
+  .address-menu-list {
     display: flex;
     flex-direction: row;
     gap: 40px;
-}
+  }
 
-.address-menu-connect {
+  .address-menu-connect {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-}
-
-
-
-
+  }
 
   .hero {
     padding: 188px 0;
@@ -296,8 +282,8 @@
     display: flex;
   }
 
-.team>.container {
-}
+  .team > .container {
+  }
 
   .team {
     padding-top: 120px;
@@ -316,9 +302,9 @@
     flex-wrap: nowrap;
   }
 
-.customers>.container {
+  .customers > .container {
     padding: 0 16px;
-}
+  }
 
   .customers {
     padding-top: 120px;
@@ -330,31 +316,30 @@
   }
 
   .footer {
-      padding-top: 100px;
-      padding-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 
   .footer-container {
-      flex-wrap: nowrap;
-      padding-left: 16px;
-      padding-right: 16px;
+    flex-wrap: nowrap;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
-    .footer-social-wrap {
-      margin: 0;
-    }
-
+  .footer-social-wrap {
+    margin: 0;
+  }
 
   .footer-text-wrap {
-      margin-right: 120px;
-      justify-content: center;
-      text-align: center;
-      margin-bottom: 0;
+    margin-right: 120px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0;
   }
 
   .footer-text {
-      min-width: 264px;
-      text-align: left;
+    min-width: 264px;
+    text-align: left;
   }
 
   .footer-social-wrap {
@@ -362,11 +347,10 @@
   }
 
   .footer-form {
-      gap: 24px;
+    gap: 24px;
   }
 
   .footer-btn {
-      margin: 0;
+    margin: 0;
   }
 }
-
