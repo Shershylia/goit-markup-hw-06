@@ -301,6 +301,7 @@
 
   .team {
     padding-top: 120px;
+    padding-bottom: 120px;
   }
 
   .team-list {
@@ -339,6 +340,10 @@
       padding-right: 16px;
   }
 
+    .footer-social-wrap {
+      margin: 0;
+    }
+
 
   .footer-text-wrap {
       margin-right: 120px;
@@ -349,10 +354,11 @@
 
   .footer-text {
       min-width: 264px;
+      text-align: left;
   }
 
   .footer-social-wrap {
-      margin-right: 80px;
+    margin-right: 80px;
   }
 
   .footer-form {
